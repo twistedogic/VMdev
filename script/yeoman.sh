@@ -25,4 +25,4 @@ sudo update-alternatives --config ruby
 sudo update-alternatives --config gem
 ruby -v
 sudo gem install compass
-sudo npm install -g yo sails flatiron harp
+sudo npm install -g yo sails flatiron harp react-tools
