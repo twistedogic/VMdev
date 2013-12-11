@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+sudo [ -f /root/.installed ] && exit 0
+sudo touch /root/.installed
 apt-get update
 apt-get install -y maven git openjdk-7-jre openjdk-7-jdk unzip
 wget https://jenkins.opendaylight.org/controller/job/controller-merge/lastSuccessfulBuild/artifact/opendaylight/distribution/opendaylight/target/distribution.opendaylight-osgipackage.zip
