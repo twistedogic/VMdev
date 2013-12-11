@@ -33,4 +33,9 @@ sudo npm install -g yo sails flatiron harp react-tools
 # git clone https://github.com/gaberger/NodeFLow.git
 # cd /home/vagrant/NodeFLow
 # git clone https://github.com/gaberger/oflib-node.git
-
+cd ~
+git clone https://github.com/aurora/rmate.git
+cd ~/rmate
+sudo mv rmate /usr/local/bin/
+cd ~
+sudo rm -rf rmate
