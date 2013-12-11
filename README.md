@@ -6,3 +6,4 @@ VMdev
 - NodeFLow vagrantfile (Node JS Openflow controller)
 - floodlight vagrantfile
 - OpenDayLight vagrantfile
+- VND template for Mininet [VND](http://www.ramonfontes.com/vnd/)
