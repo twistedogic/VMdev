@@ -8,10 +8,11 @@ sudo apt-get update
 sudo apt-get install -y python-software-properties python g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
+sudo add-apt-repository ppa:ondrej/php5-oldstable
+sudo apt-get update
 sudo apt-get install -y nodejs
 sudo apt-get update
 sudo apt-get install -y apache2
-sudo apt-get install -y mysql-server libapache2-mod-auth-mysql php5-mysql
 sudo apt-get install -y php5 libapache2-mod-php5 php5-mcrypt
 
 node -v
@@ -33,12 +34,8 @@ ruby -v
 sudo gem install compass 
 sudo npm install -g yo
 sudo gem install rhc
-sudo npm install -g generator-wp generator-wordpress generator-wp-plugin generator-drupal-bootstrap-theme
 cd ~
 git clone https://github.com/aurora/rmate.git
-wget https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
-chmod +x wp-cli.phar
-mv wp-cli.phar /usr/bin/wp
 cd ~/rmate
 sudo mv rmate /usr/local/bin/
 cd ~
