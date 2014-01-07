@@ -1,0 +1,4 @@
+sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+sudo mysql_install_db
+sudo /usr/bin/mysql_secure_installation
+sudo dpkg-reconfigure mysql-server-5.5
