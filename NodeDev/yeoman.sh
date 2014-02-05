@@ -28,7 +28,7 @@ sudo update-alternatives --config ruby
 sudo update-alternatives --config gem
 ruby -v
 sudo gem install compass
-sudo npm install -g yo sails flatiron harp react-tools
+sudo npm install -g yo sails flatiron harp react-tools instant-server
 # cd /home/vagrant/
 # git clone https://github.com/gaberger/NodeFLow.git
 # cd /home/vagrant/NodeFLow
