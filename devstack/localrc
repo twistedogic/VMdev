@@ -1,0 +1,41 @@
+# Credentials
+ADMIN_PASSWORD=devstack
+MYSQL_PASSWORD=devstack
+RABBIT_PASSWORD=devstack
+SERVICE_PASSWORD=devstack
+SERVICE_TOKEN=token
+
+# Services
+disable_service n-net
+enable_service q-svc
+enable_service q-agt
+enable_service q-dhcp
+enable_service q-meta
+enable_service quantum
+enable_service q-lbaas
+enable_service swift
+
+# Branches
+NOVA_BRANCH=stable/havana
+CINDER_BRANCH=stable/havana
+GLANCE_BRANCH=stable/havana
+HORIZON_BRANCH=stable/havana
+KEYSTONE_BRANCH=stable/havana
+NEUTRON_BRANCH=stable/havana
+SWIFT_BRANCH=stable/havana
+
+# Output
+LOGFILE=/opt/stack/logs/stack.sh.log
+VERBOSE=True
+LOG_COLOR=False
+SCREEN_LOGDIR=/opt/stack/logs
+
+# Neutron Stuff
+OVS_VLAN_RANGES=RegionOne:1:4000
+OVS_ENABLE_TUNNELING=False
+
+# Swift stuff
+SWIFT_HASH=66a3d6b56c1f479c8b4e70ab5c2000f5
+SWIFT_REPLICAS=1
+
+VIRT_DRIVER=docker
